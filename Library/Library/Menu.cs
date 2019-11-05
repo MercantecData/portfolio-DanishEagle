@@ -44,8 +44,11 @@ namespace Library
         public static void BorrowBook()
         {
             Console.Clear();
+            DateTime dateTime = new DateTime();
             Console.WriteLine("Which book would you like to borrow: ");
             string bookToBorrow = Console.ReadLine();
+
+
         }
 
         public static void SearchBook()
