@@ -77,6 +77,7 @@ namespace Library
 
             if (searchInput == "The Luminous Dead") 
             {
+                //more options to show if its in stock or not 
                 Console.WriteLine("The book is in stock / is not in stock");
             } 
             else 
