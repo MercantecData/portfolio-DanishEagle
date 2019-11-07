@@ -16,5 +16,7 @@ namespace Library
             this.author = author;
             this.genre = genre;
         }
+
+        
     }
 }
