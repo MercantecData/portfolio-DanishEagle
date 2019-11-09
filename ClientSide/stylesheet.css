@@ -1,0 +1,68 @@
+body {
+    background-image: url("blurryfire2.png"); 
+    background-color: aliceblue;
+}
+
+img.pfp {
+    width: 200px;
+    border: solid;
+    border-width: 5px;
+    border-color: aliceblue;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color:#2C2F33;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    color: #2C2F33;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.info {
+    color: #2C2F33;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 3px solid white;
+    border-radius: 5px;
+    margin-right: 600px;
+    margin-left: 600px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.tinyright {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 300px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto; 
+    grid-template-rows: auto auto;
+    grid-column-gap: 175px;
+    grid-row-gap: 50px;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.grid-item {
+    background-color: hsla(0, 0%, 100%, 0.5);
+    border-left: 3px solid white;
+    padding: 20px; 
+    font-size: 12px;
+    text-align: left;
+}
+
