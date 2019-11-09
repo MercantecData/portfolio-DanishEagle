@@ -7,6 +7,7 @@ namespace Library
         public static void MainMenu()
         {
             Console.Clear();
+            Console.WriteLine("Welcome to the Library, here is the menu! ");
             Console.WriteLine("Menu\n" +
                 "1: Borrow Book\n" +
                 "2: Search Book\n" +
@@ -73,12 +74,12 @@ namespace Library
         {
             Console.Clear();
             Console.WriteLine("Search for book here: ");
-            string searchInput = Console.ReadLine();
+            string searchInput = Console.ReadLine().ToLower();
 
-            if (searchInput == "The Luminous Dead") 
+            if (searchInput == "the luminous dead") 
             {
                 //more options to show if its in stock or not 
-                Console.WriteLine("The book is in stock / is not in stock");
+                Console.WriteLine("The book is in stock");
             } 
             else 
             {

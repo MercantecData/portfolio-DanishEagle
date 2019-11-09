@@ -12,14 +12,10 @@ namespace Library
             BookList.Add(new Books("Harry Potter", "JK Rowling", "Fantasy"));
             BookList.Add(new Books("BookTitle", "Authors Name", "Drama"));
 
-            Books newBook = new Books("The Luminous Dead", "Name Nameson", "Fantasy");
-            Menu.MainMenu();
-
             
+
+            Menu.MainMenu();            
         }
-
-        
-
 
     }
 }
