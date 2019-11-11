@@ -64,11 +64,14 @@ a:hover {
     margin-bottom: 25px;
 }
 
-.tinyright {
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
+.noscroll {
+    overflow: hidden;
+}
+
+.runningdogs {
     width: 300px;
+    position: relative;
+    animation: mymove 7s linear infinite;
 }
 
 .grid-container {
@@ -111,3 +114,8 @@ button {
 button:hover {
     background-color: black;
 }
+
+@keyframes mymove {
+    from {left: -350px;}
+    to {left: 1600px;}
+  }
