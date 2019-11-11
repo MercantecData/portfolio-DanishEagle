@@ -28,6 +28,24 @@ p {
     font-family: 'Courier New', Courier, monospace;
 }
 
+a:link {
+    color: rgb(134, 29, 29);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:visited{
+    color: rgb(134, 29, 29);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
 .info {
     color: #2C2F33;
     font-family: 'Courier New', Courier, monospace;
@@ -50,7 +68,7 @@ p {
     display: grid;
     grid-template-columns: auto auto; 
     grid-template-rows: auto auto;
-    grid-column-gap: 175px;
+    grid-column-gap: 125px;
     grid-row-gap: 50px;
     padding: 10px;
     margin-left: 200px;
