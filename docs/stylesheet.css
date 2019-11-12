@@ -154,3 +154,41 @@ a:hover {
     from {left: -350px;}
     to {left: 1600px;}
   }
+
+label {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input[type=text] {
+    font-family: 'Courier New', Courier, monospace;
+    width: 35%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #2C2F33;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=date] {
+    font-family: 'Courier New', Courier, monospace;
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #2C2F33;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    font-family: 'Courier New', Courier, monospace;
+    width: 15%;
+    background-color: hsla(210, 3%, 13%, 0.4);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

@@ -36,3 +36,13 @@ function changeText() {
       var elmnt = document.getElementById("para1");
       elmnt.remove();
   }
+
+  function commentSection() {
+      var input = document.getElementById('fname');
+        input.addEventListener("keyup", function(event) {
+        //Number 13 is the Enter key 
+        if (event.keyCode === 13) {
+            document.getElementById('section').innerHTML += input.value + "<br>"
+        } 
+    }
+  }

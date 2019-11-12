@@ -1,16 +1,40 @@
 <head>
-        <link rel = "stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="stylesheet.css">
         <script type="text/javascript" src="script.js"></script>
     </head>
 
     <body>
-        <div class = center>
-            <ul class = "navbar">
-                <li class="nav"><a href ="index.html">Home</a></li>
-                <li class="nav"><a href ="ClickButton.html">Click button</a></li>
-                <li class="nav"><a href ="GuestBook.html">Guest Book</a></li>
+        <div class="center">
+            <ul class="navbar">
+                <li class="nav"><a href="index.html">Home</a></li>
+                <li class="nav"><a href="ClickButton.html">Click button</a></li>
+                <li class="nav"><a href="GuestBook.html">Guest Book</a></li>
             </ul>
 
+            <h2>
+                Guest Book
+            </h2>
+
+            <div class="guestBook">
+                <form> 
+                    <label>First Name</label><br>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+
+                    <label>Last Name</label><br>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+
+                    <label>Comment</label><br>
+                    <input type="text" id="comment" name="commentbox" placeholder="Write comment here.."><br>
+
+                    <label>Date</label><br>
+                    <input type="date" id="date" name="dateToday"><br>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+            <div id="section"></div>
+            <script>commentSection();</script>
         </div>
 
     </body>
@@ -18,6 +42,6 @@
 
     <footer>
             <div class="noscroll">
-                <img class =  runningdogs src = "https://media.giphy.com/media/YtPdK4YyUzBhC/200.gif">
+                <img class="runningdogs" src="https://media.giphy.com/media/YtPdK4YyUzBhC/200.gif">
             </div>
-        </footer>
+        </footer> 
