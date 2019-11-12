@@ -9,13 +9,46 @@ img.pfp {
     border-width: 5px;
     border-color: aliceblue;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .center {
     text-align: center;
 }
 
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: hsla(0, 0%, 100%, 0.5);
+}
+
+.nav {
+    float: left;
+}
+
+.nav a {
+    display: block;
+    color: #2C2F33;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;;
+}
+
+.nav a:visited {
+    color: #2C2F33;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
 
 h1 {
     color:#2C2F33;
@@ -37,13 +70,13 @@ p {
 }
 
 a:link {
-    color: white;
+    color: #2C2F33;
     background-color: transparent;
     text-decoration: underline;
 }
 
 a:visited{
-    color: white;
+    color: #2C2F33;
     background-color: transparent;
     text-decoration: none;
 }
@@ -96,7 +129,7 @@ a:hover {
     text-align: left;
 }
 
-button {
+.button {
     background-color: hsla(210, 3%, 13%, 0.4);
     border:none;
     border-left: 2px solid white;
@@ -107,12 +140,14 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
     margin-bottom: 15px;
     margin-top: 10px;
 }
 
-button:hover {
-    background-color: black;
+.button:hover {
+    background-color: #2C2F33;
+    cursor: pointer;
 }
 
 @keyframes mymove {
