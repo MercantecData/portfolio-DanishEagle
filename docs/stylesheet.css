@@ -70,13 +70,13 @@ p {
 }
 
 a:link {
-    color: #2C2F33;
+    color: white;
     background-color: transparent;
     text-decoration: underline;
 }
 
 a:visited{
-    color: #2C2F33;
+    color: white;
     background-color: transparent;
     text-decoration: none;
 }
