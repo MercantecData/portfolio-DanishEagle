@@ -41,6 +41,6 @@ function commentSection() {
   var firstname = document.getElementById("fname").value;
   var lastname = document.getElementById("lname").value;
   var comment = document.getElementById("comment").value;
-  var answer = firstname + " " + lastname + " " + comment;
+  var answer = "Name: " + firstname + " " + lastname + "<br>" + " " + "Comment: " + comment;
   document.getElementById("section").innerHTML += answer + "<br>";   
   }

@@ -1,4 +1,4 @@
-body {
+body, html {
     background-image: url("blurryfire2.png"); 
     background-color: aliceblue;
 }
@@ -61,7 +61,7 @@ h2 {
 }
 
 h3 {
-    color: #2C2F33;
+    color: white;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -204,4 +204,9 @@ input[type=submit]:hover {
 .submitbutton:hover {
     background-color: #2C2F33;
     cursor: pointer;
+}
+
+.prettyfont {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
 }
