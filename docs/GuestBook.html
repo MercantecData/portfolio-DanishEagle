@@ -16,7 +16,7 @@
     </h2>
 
     <div class="guestBook">
-        <form onsubmit="submitAnswer();"> 
+        <form> 
             <label>First Name</label><br>
             <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
 
@@ -26,12 +26,11 @@
             <label>Comment</label><br>
             <input type="text" id="comment" name="commentbox" placeholder="Write comment here.."><br><br>
 
-            <div class="submitbutton" id="" >Submit</div>
+            <div class="submitbutton" id="submit" onclick="commentSection()">Submit</div>
         </form>
     </div>
 
     <div id="section"></div>
-    <script>commentSection();</script>
     </div>
 </body>
 
