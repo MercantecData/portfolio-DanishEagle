@@ -49,4 +49,4 @@ function commentSection() {
 
 function submitAnswer() {
     document.getElementById("section").innerHTML += commentSection() + "<br>";
-}
+} 
