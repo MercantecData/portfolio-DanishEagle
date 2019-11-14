@@ -1,6 +1,10 @@
-body, html {
-    background-image: url("blurryfire2.png"); 
+body { 
     background-color: aliceblue;
+    margin: 0;
+}
+
+.bg {
+    background-image: url("blurryfire2.png");
 }
 
 img.pfp {
@@ -18,7 +22,7 @@ img.pfp {
 
 .navbar {
     list-style-type: none;
-    margin: 0;
+    margin: 5px;
     padding: 0;
     overflow: hidden;
     background-color: hsla(0, 0%, 100%, 0.5);
@@ -210,4 +214,50 @@ input[type=submit]:hover {
 .prettyfont {
     font-family: 'Courier New', Courier, monospace;
     color: white;
+}
+
+/* ------ CHRISTMAS STUFF ------ */
+.bgimg {
+    background-image: url("christmas.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.newh1 {
+    color: white;
+    text-shadow: 2px 2px #2C2F33;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+
+.count {
+    font-size: 30px;
+    text-shadow: 2px 2px #2C2F33;
+}
+
+/* ------ END OF CHRISTMAS STUFF ------ */
+
+.fixed {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
