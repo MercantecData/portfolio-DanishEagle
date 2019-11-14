@@ -47,14 +47,7 @@ function commentSection() {
   }
 
 function addArray() {
-  var games //text, gLen, i;
+  var games
   games = ["Animal Crossing", "Smite", "Siege", "Beat Saber"];
   document.getElementById("array").innerHTML = games.join(", ");
-  //gLen = games.length;
-
-  //text = "<ul style='list-style-type:none;'>";
-  //for (i = 0; i < gLen; i++) {
-  //  text += "<li>" + games[i] + "</li>";
-  //}
-  //text += "</ul>"; 
   } 
