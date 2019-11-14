@@ -33,14 +33,28 @@ function addElement() {
   } 
 
 function removeElement() {
-      var elmnt = document.getElementById("para1");
-      elmnt.remove();
+    var elmnt = document.getElementById("para1");
+    elmnt.remove();
   }
 
 function commentSection() {  
-  var firstname = document.getElementById("fname").value;
-  var lastname = document.getElementById("lname").value;
-  var comment = document.getElementById("comment").value;
-  var answer = "Name: " + firstname + " " + lastname + "<br>" + " " + "Comment: " + comment;
-  document.getElementById("section").innerHTML += answer + "<br>";   
+    var firstname = document.getElementById("fname").value;
+    var lastname = document.getElementById("lname").value;
+    var comment = document.getElementById("comment").value;
+    var answer = "Name: " + firstname + " " + lastname + "<br>" + " " + "Comment: " + comment + "<br>";
+    
+    document.getElementById("section").innerHTML += answer + "<br>";   
   }
+
+function addArray() {
+  var games //text, gLen, i;
+  games = ["Animal Crossing", "Smite", "Siege", "Beat Saber"];
+  document.getElementById("array").innerHTML = games.join(", ");
+  //gLen = games.length;
+
+  //text = "<ul style='list-style-type:none;'>";
+  //for (i = 0; i < gLen; i++) {
+  //  text += "<li>" + games[i] + "</li>";
+  //}
+  //text += "</ul>"; 
+  } 
