@@ -1,0 +1,16 @@
+body 
+{
+    background-image: url("picture.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container  
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 
+{
+    
+}
