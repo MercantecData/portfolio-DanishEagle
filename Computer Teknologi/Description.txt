@@ -1,0 +1,22 @@
+Journal website 
+
+Description:
+Create a website where people can log in and write an entry of a journal or small notes. Stores the text, time and user. 
+
+
+Courses included: 
+- Clientside: making the website for it
+Bonus to me: would be to include some JS as im not fully comfortale with it but would like to be better in it.
+- Database: creating the logins, and storing the entries so people can log in and read them again or (possibly delete them) 
+- Server part: PHP
+
+
+What to make it a success: 
+- I need an actual page that works with databases. Since Githubs page is only clientside it cannot store things. 
+- I need to read up on database and how to work with it since i missed that time in school. 
+
+
+Monday: 
+- Finish up overview of idea. 
+- Read up on database.
+- Start making website layout. 
