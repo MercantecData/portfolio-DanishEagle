@@ -62,6 +62,13 @@ h1
     color: #2C2F33;
 }
 
+h3 
+{
+    font-family: 'Bad Script', cursive;
+    text-align: center;
+    color: #2C2F33;
+}
+
 .submitbutton 
 {
     background-color: hsla(210, 3%, 13%, 0.4);
