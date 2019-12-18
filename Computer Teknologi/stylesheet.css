@@ -1,7 +1,7 @@
-body 
+body, html
 {
-    background-color: aliceblue;
-    margin: 0;
+    margin: 0px;
+    height: 100%;
 }
 
 .bg 
@@ -9,6 +9,18 @@ body
     background-image: url("bg2.jpg");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.clearfix:before, .clearfix:after 
+{
+    content: "";
+    display: table;
+}
+
+.clearfix:after 
+{
+    clear: both;
 }
 
 .navbar 
@@ -69,7 +81,30 @@ h3
     color: #2C2F33;
 }
 
-.submitbutton 
+p 
+{
+    font-family: 'Bad Script', cursive;
+}
+
+.form 
+{
+    width: 300px;
+    margin: 0 auto;
+}
+
+input[type='text'], input[type='password']
+{
+    font-family: 'Bad Script', cursive;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #2C2F33;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type='submit'] 
 {
     background-color: hsla(210, 3%, 13%, 0.4);
     border: none;
@@ -85,7 +120,7 @@ h3
     margin-top: 10px;
 }
 
-.submitbutton:hover 
+input[type='submit']:hover 
 {
     background-color: #2C2F33;
     cursor: pointer;
@@ -104,4 +139,14 @@ textarea
     resize: none;
     font-family: 'Bad Script', cursive;
     outline: none;
+}
+
+a 
+{
+    font-family: 'Bad Script', cursive;
+}
+
+a:hover 
+{
+    text-decoration: underline;
 }
