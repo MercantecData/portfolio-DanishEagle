@@ -74,7 +74,7 @@ h1
     color: #2C2F33;
 }
 
-h3 
+h2 
 {
     font-family: 'Bad Script', cursive;
     text-align: center;
@@ -84,6 +84,7 @@ h3
 p 
 {
     font-family: 'Bad Script', cursive;
+    text-align: center;
 }
 
 .form 

@@ -11,7 +11,6 @@
     <div class="container">
 <?php 
 require('db.php');
-
 if (isset($_REQUEST['username'])){
         //removes backslashes
     $username = stripslashes($_REQUEST['username']);
@@ -24,7 +23,8 @@ if (isset($_REQUEST['username'])){
         if($result) {
             echo "<div class='form'>
             <h3>You have been registered successfully.</h3>
-            <br/>Click here to <a href='login.php'>Login</a></div>";
+            <br/><p>Click here to <a href='login.php'>Login</a></p>
+            </div>";
         }
 } else {
 ?>
@@ -36,6 +36,7 @@ if (isset($_REQUEST['username'])){
     <input type="password" name="password" placeholder="Password" required/><br>
     <input name="submit" type="submit" value="Register" />
     </form>
+    <p>Already got an account? Login <a href="login.php">here</a></p>
 </div>
 <?php } ?>
 </div>
