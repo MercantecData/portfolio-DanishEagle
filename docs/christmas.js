@@ -1,5 +1,5 @@
 //Set the date the countdown is for 
-var countDownDate = new Date("Dec 24, 2019 18:00:00").getTime(); 
+var countDownDate = new Date("Dec 24, 2020 18:00:00").getTime(); 
 
 //update the countdown every second 
 var countDownFunction = setInterval(function() {
