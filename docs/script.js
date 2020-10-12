@@ -1,6 +1,6 @@
 //Changing the text on the button between text and date & time 
 function buttonClick() {
-    var x = document.getElementById('button');
+    var x = document.getElementById('button2');
     if (x.innerHTML === "Click me for Date and Time!") {
         x.innerHTML = Date();
     } else {
